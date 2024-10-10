@@ -18,26 +18,39 @@ Cette application permet aux utilisateurs de gérer une bibliothèque, en offran
 
 ## Installation
 1. Clonez le dépôt :
+   ```
    git clone <url_du_depot>
    cd nom_du_depot
+   ```
 
 2. Installez les dépendances Python :
-  cd backend
-  pip install -r requirements.txt
+   ```
+   cd backend
+   pip install -r requirements.txt
+   ```
 
 3. Installez les dépendances Node.js :
+ ```
   cd frontend
   npm install
+```
 
 4. Effectuez les migrations de la base de données :
+ ```
   cd backend
   python manage.py migrate
+```
 
 5. Démarrez le serveur de développement Django :
-    python manage.py runserver
+```
+   python manage.py runserver
+```
 
 6. Démarrez le serveur de développement Vue.js :
-  cd frontend
-  npm run serve
+```
+   cd frontend
+   npm run serve
+```
 
+Marc Lebreton de Vonne M1 Développeur Full-Stack - Architecture Logiciel.
 
